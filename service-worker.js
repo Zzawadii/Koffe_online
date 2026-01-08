@@ -2,22 +2,24 @@
 const CACHE_NAME = 'koffee-cache-v1';
 
 // Files to cache
+
 const urlsToCache = [
-    '/Koffe_online/index.html',
-    '/Koffe_online/about.html',
-    '/Koffe_online/menu.html',
-    '/Koffe_online/contact.html',
-    '/Koffe_online/secnd.css',
-    '/Koffe_online/about.css',
-    '/Koffe_online/menu.css',
-    '/Koffe_online/koffee.jpg',
-    '/Koffe_online/arabic.jpg',
-    '/Koffe_online/roasted.jpg',
-    '/Koffe_online/ground.jpg',
-    '/Koffe_online/pack.jpg',
-    '/Koffe_online/join.jpg',
-    '/Koffe_online/icons/icon-192.png',
-    '/Koffe_online/icons/icon-512.png'
+  './',
+  './index.html',
+  './about.html',
+  './menu.html',
+  './contact.html',
+  './secnd.css',
+  './about.css',
+  './menu.css',
+  './koffee.jpg',
+  './arabic.jpg',
+  './roasted.jpg',
+  './ground.jpg',
+  './pack.jpg',
+  './join.jpg',
+  './icons/icon-192.png',
+  './icons/icon-512.png'
 ];
 
 
@@ -37,4 +39,5 @@ self.addEventListener('fetch', event => {
             .then(response => response || fetch(event.request))
     );
 });
+
 
