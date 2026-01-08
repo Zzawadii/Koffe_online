@@ -1,10 +1,11 @@
 {
   "name": "Koffe Online",
   "short_name": "Koffe",
-  "start_url": "/index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#6f4e37",
+  "description": "Simply Koffee - Enjoy the best coffee in Rwanda",
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -18,5 +19,4 @@
     }
   ]
 }
-
 
