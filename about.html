@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Simply Koffee</title>
-       <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#6f4e37">
     <link rel="stylesheet" href="about.css">
 </head>
@@ -57,22 +57,16 @@
     <footer>
         <p>&copy; 2025 Simply Koffee. All Rights Reserved.</p>
     </footer>
-<script>
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js')
-    .then(() => console.log('Service Worker registered'))
-    .catch(err => console.error('SW registration failed:', err));
-}
-</script>
+
+    <!-- Service Worker registration -->
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+            .then(() => console.log('Service Worker registered'))
+            .catch(err => console.error('SW registration failed:', err));
+    }
+    </script>
 
 </body>
 
-
 </html>
-
-
-
-
-
-
-
